@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65042" started-at="2016-06-11T14:35:39Z" finished-at="2016-06-11T14:36:44Z">
+  <suite name="Default suite" duration-ms="37341" started-at="2016-06-11T15:57:01Z" finished-at="2016-06-11T15:57:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65042" started-at="2016-06-11T14:35:39Z" finished-at="2016-06-11T14:36:44Z">
-      <class name="lesson2.ExampleJS">
-        <test-method status="PASS" signature="init()[pri:0, instance:lesson2.ExampleJS@1bce4f0a]" name="init" is-config="true" duration-ms="11402" started-at="2016-06-11T22:35:39Z" finished-at="2016-06-11T22:35:50Z">
+    <test name="Default test" duration-ms="37341" started-at="2016-06-11T15:57:01Z" finished-at="2016-06-11T15:57:39Z">
+      <class name="lesson3.ExampleForAjax">
+        <test-method status="PASS" signature="init()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="init" is-config="true" duration-ms="13333" started-at="2016-06-11T23:57:01Z" finished-at="2016-06-11T23:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="test()[pri:0, instance:lesson2.ExampleJS@1bce4f0a]" name="test" duration-ms="53612" started-at="2016-06-11T22:35:50Z" finished-at="2016-06-11T22:36:44Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="test" duration-ms="22419" started-at="2016-06-11T23:57:15Z" finished-at="2016-06-11T23:57:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="destory()[pri:0, instance:lesson2.ExampleJS@1bce4f0a]" name="destory" is-config="true" duration-ms="11" started-at="2016-06-11T22:36:44Z" finished-at="2016-06-11T22:36:44Z">
+        <test-method status="PASS" signature="destory()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="destory" is-config="true" duration-ms="1578" started-at="2016-06-11T23:57:37Z" finished-at="2016-06-11T23:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destory -->
-      </class> <!-- lesson2.ExampleJS -->
+      </class> <!-- lesson3.ExampleForAjax -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
