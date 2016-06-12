@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37341" started-at="2016-06-11T15:57:01Z" finished-at="2016-06-11T15:57:39Z">
+  <suite name="SeleniumIDE" duration-ms="61735" started-at="2016-06-12T04:57:53Z" finished-at="2016-06-12T04:58:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37341" started-at="2016-06-11T15:57:01Z" finished-at="2016-06-11T15:57:39Z">
-      <class name="lesson3.ExampleForAjax">
-        <test-method status="PASS" signature="init()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="init" is-config="true" duration-ms="13333" started-at="2016-06-11T23:57:01Z" finished-at="2016-06-11T23:57:15Z">
+    <test name="Test" duration-ms="61735" started-at="2016-06-12T04:57:53Z" finished-at="2016-06-12T04:58:55Z">
+      <class name="seleniumide.testng.Selenium2TestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumide.testng.Selenium2TestNG@1a1644b]" name="setUp" is-config="true" duration-ms="8261" started-at="2016-06-12T12:57:53Z" finished-at="2016-06-12T12:58:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="test()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="test" duration-ms="22419" started-at="2016-06-11T23:57:15Z" finished-at="2016-06-11T23:57:37Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSelenium2TestNG()[pri:0, instance:seleniumide.testng.Selenium2TestNG@1a1644b]" name="testSelenium2TestNG" duration-ms="52020" started-at="2016-06-12T12:58:01Z" finished-at="2016-06-12T12:58:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="destory()[pri:0, instance:lesson3.ExampleForAjax@604ed9f0]" name="destory" is-config="true" duration-ms="1578" started-at="2016-06-11T23:57:37Z" finished-at="2016-06-11T23:57:39Z">
+        </test-method> <!-- testSelenium2TestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumide.testng.Selenium2TestNG@1a1644b]" name="tearDown" is-config="true" duration-ms="1416" started-at="2016-06-12T12:58:54Z" finished-at="2016-06-12T12:58:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- destory -->
-      </class> <!-- lesson3.ExampleForAjax -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumide.testng.Selenium2TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- SeleniumIDE -->
 </testng-results>
