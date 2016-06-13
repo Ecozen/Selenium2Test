@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumIDE]" parallel="tests">
   <test name="Test(failed)" parallel="tests">
     <classes>
-      <class name="seleniumide.testng.Selenium2TestNG">
+      <class name="seleniumide.testng.TestNG2SeleniumRC">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testSelenium2TestNG"/>
+          <include name="testSelenium2Junit_RC"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- seleniumide.testng.Selenium2TestNG -->
+      </class> <!-- seleniumide.testng.TestNG2SeleniumRC -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SeleniumIDE] -->

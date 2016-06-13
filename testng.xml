@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SeleniumIDE" parallel="tests">
-  <test name="Test">
+<parameter name="testEnv" value="${testEnv}"></parameter>
+  <test name="test-selenium-firefox">
+  	<parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="seleniumide.testng.Selenium2TestNG"/>
+      <class name="seleniumide.testng.TestNG2SeleniumRC"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- SeleniumIDE -->
